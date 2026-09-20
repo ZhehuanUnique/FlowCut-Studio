@@ -1,0 +1,3 @@
+interface:
+  display_name: "Reverb Echo Outro"
+  short_description: "Shape natural audio tails with reverb and delay"

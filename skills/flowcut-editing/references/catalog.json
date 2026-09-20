@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "pack_name": "flowcut-studio",
+  "pack_version": "0.1.0",
+  "display_name": "FlowCut Studio",
+  "entrypoint_base": "skill-directory",
+  "modules": [
+    {
+      "id": "FC-IN-001",
+      "name": "flowcut-intro-iris-spin",
+      "title_zh": "光圈旋幕开头",
+      "title_en": "Iris Spin Intro",
+      "aliases": ["光圈片头", "光圈旋幕", "旋转开幕"],
+      "stage": "intro",
+      "scope": "video-intro-and-optional-accent-audio",
+      "entrypoint": "../flowcut-intro-iris-spin/SKILL.md",
+      "version": "0.1.0",
+      "validation": "native-jianying-export-verified",
+      "editor_baseline": "Jianying Pro Windows 11.5.0.14471"
+    },
+    {
+      "id": "FC-OUT-001",
+      "name": "flowcut-outro-reverb-echo",
+      "title_zh": "混响回声结尾",
+      "title_en": "Reverb Echo Outro",
+      "aliases": ["回声片尾", "声音拖尾", "混响结尾"],
+      "stage": "outro",
+      "scope": "audio-tail-and-optional-video-hold-fade",
+      "entrypoint": "../flowcut-outro-reverb-echo/SKILL.md",
+      "version": "0.1.0",
+      "validation": "native-jianying-export-and-audio-tail-verified",
+      "editor_baseline": "Jianying Pro Windows 11.5.0.14471"
+    }
+  ]
+}
